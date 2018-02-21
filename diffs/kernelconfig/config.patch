@@ -1,5 +1,5 @@
 --- .config	2018-02-21 15:00:51.759108944 +0000
-+++ /home/nvidia/config	2018-02-21 15:21:51.996232813 +0000
++++ /home/nvidia/.config	2018-02-21 15:21:51.996232813 +0000
 @@ -596,16 +596,14 @@
  CONFIG_IP_PNP_BOOTP=y
  CONFIG_IP_PNP_RARP=y
