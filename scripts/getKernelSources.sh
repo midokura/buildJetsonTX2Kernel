@@ -7,5 +7,5 @@ wget http://developer.download.nvidia.com/embedded/L4T/r28_Release_v1.0/BSP/sour
 tar -xvf source_release.tbz2 sources/kernel_src-tx2.tbz2
 tar -xvf sources/kernel_src-tx2.tbz2
 cd kernel/kernel-4.4
-patch -p0 < /home/nvidia/buildJetsonTx2Kernel/diffs/kernelconfig/config.patch
-patch -p0 < /home/nvidia/buildJetsonTx2Kernel/diffs/kernelconfig/makefile.patch
+patch -p0 < /home/nvidia/buildJetsonTX2Kernel/diffs/kernelconfig/config.patch
+patch -p0 < /home/nvidia/buildJetsonTX2Kernel/diffs/kernelconfig/makefile.patch
