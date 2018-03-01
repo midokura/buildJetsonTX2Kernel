@@ -16,4 +16,5 @@ src_dir="/usr/src/kernel/kernel-$kernel_ver"
     #done < "$file"
 #done
 
-sudo cp ../goldenconfig $src_dir/.config
+sudo sed -i 's/EXTRAVERSION =/EXTRAVERSION = -tegra/' $src_dir/Makefile
+sudo cp `dirname $0`/../goldenconfig $src_dir/.config
