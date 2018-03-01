@@ -9,4 +9,5 @@ tar -xvf sources/kernel_src-tx2.tbz2
 cd kernel/kernel-4.4
 zcat /proc/config.gz > .config
 patch -p0 < /home/nvidia/buildJetsonTX2Kernel/diffs/kernelconfig/config.patch
+patch -p0 < /home/nvidia/buildJetsonTX2Kernel/diffs/kernelconfig/docker.patch
 patch -p0 < /home/nvidia/buildJetsonTX2Kernel/diffs/kernelconfig/makefile.patch
