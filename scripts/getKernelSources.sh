@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-add-repository universe
 apt-get update
-apt-get install qt5-default pkg-config -y
+apt-get install qt5-default pkg-config bc -y
 cd /usr/src
 wget https://developer.download.nvidia.com/embedded/L4T/r32_Release_v1.0/jax-tx2/BSP/JAX-TX2-public_sources.tbz2
 tar -xvf JAX-TX2-public_sources.tbz2 public_sources/kernel_src.tbz2
